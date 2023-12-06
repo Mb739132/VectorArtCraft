@@ -1,0 +1,20 @@
+{
+  "name": "vectorartcraft",
+  "version": "1.0.0",
+  "description": "Build a Node.js command-line app that creates customized SVG logos. Users can choose colors, shapes, and input text, with the application generating a unique SVG logo based on their selections. The logos are then saved as SVG files. Dive into the world of SVG logo design with this interactive and user-friendly Node.js application.",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "jest --config jest.config.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
